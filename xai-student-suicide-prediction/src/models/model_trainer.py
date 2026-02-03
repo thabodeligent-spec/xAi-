@@ -16,9 +16,9 @@ from typing import Dict, Any, Optional, Tuple
 from pathlib import Path
 import joblib
 
-from ..data.data_loader import DataLoader
-from ..data.data_fusion import merge_multimodal_data
-from ..data.preprocessor import DataPreprocessor
+from data.data_loader import DataLoader
+from data.data_fusion import merge_multimodal_data
+from data.preprocessor import DataPreprocessor
 from .random_forest import RFModel
 from .xgboost_model import XGBoostModel
 
